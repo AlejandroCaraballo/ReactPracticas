@@ -1,0 +1,38 @@
+ body{
+  margin: 0;
+  padding: 0;
+  background: #232647;
+ }
+
+ .App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .App header {
+  margin: 20px 0;
+ }
+
+ .App header img {
+  width: 500px;
+  height: auto;
+ }
+
+
+ .content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+
+ @media screen and (max-width: 500px) {
+   .content-button {
+      flex-direction: column;
+   }
+ }
+
+

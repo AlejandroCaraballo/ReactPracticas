@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #f5f6f7;
+  font-size: 18px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.App header {
+  width: 100%;
+  background: #f1f1f2;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.App header img {
+  width: 500px;
+  height: auto;
+}
+
+.App h1{
+  width: 940px;
+  font-size: 2.1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .App, .App h1 {
+    width: 100vh;
+  }
+
+
+}
